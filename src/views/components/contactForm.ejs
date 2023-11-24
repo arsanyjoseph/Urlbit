@@ -1,6 +1,6 @@
 <div class="flex items-center justify-center h-[88vh] relative z-50">
   <form
-    class="bg-gray-200 p-6 rounded-lg shadow-md flex flex-col"
+    class="bg-white shadow-lg p-6 border-2 rounded-lg flex flex-col w-[30vw] h-[50vh]"
     id="contactForm"
     autocomplete="off"
   >
@@ -8,7 +8,7 @@
       <h1 class="text-lg font-bold">Contact Us</h1>
     </div>
     <div class="mb-4">
-      <label for="title" class="text-lg font-semibold cursor-pointer">
+      <label for="title" class="text-lg font-semibold">
         Title:
       </label>
       <input
@@ -16,7 +16,7 @@
         id="title"
         maxlength="30"
         minlength="1"
-        class="mt-1 p-2 border rounded-md w-full"
+        class="mt-1 p-2 border-2 rounded-md w-full"
       />
     </div>
     <div class="mb-4">
@@ -25,15 +25,15 @@
       </label>
       <textarea
         id="description"
-        class="mt-1 p-2 border rounded-md w-full"
+        class="mt-1 p-2 h-[15vh] border-2 rounded-md w-full resize-none"
       ></textarea>
     </div>
-    <div class="mb-4">
+    <div class="mb-4 flex items-center justify-end">
       <input
         type="submit"
         id="submit"
-        class="bg-gray-300 hover:bg-gray-400 text-black font-bold py-2 px-4 rounded w-full cursor-pointer"
-      />
+        class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 cursor-pointer"
+        />
     </div>
   </form>
 </div>
